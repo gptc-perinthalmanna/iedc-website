@@ -1,0 +1,73 @@
+{
+  "name": "vite-react-ts",
+  "version": "0.0.0",
+  "description": "React Typescript Starter Template with Vite",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amjed-ali-k/vite-react-ts.git"
+  },
+  "keywords": [
+    "vite",
+    "react",
+    "starter",
+    "template"
+  ],
+  "author": "Amjed Ali K <amjedmgm@gmail.com> (https://amjed_k.t.me)",
+  "license": "MIT",
+  "homepage": "https://github.com/amjed-ali-k/vite-react-ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "jest",
+    "serve": "vite preview",
+    "prepare": "husky install",
+    "commit": "commit",
+    "format": "prettier --write --ignore-unknown .",
+    "lint": "eslint --cache ./src"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-error-boundary": "^3.1.4",
+    "vite-plugin-svgr": "2.2.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "@commitlint/prompt-cli": "^17.3.0",
+    "@testing-library/dom": "^8.19.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/jest": "^29.2.4",
+    "@types/node": "^18.11.15",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "@vitejs/plugin-react": "^3.0.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^27.1.7",
+    "eslint-plugin-jest-dom": "^4.0.3",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-testing-library": "^5.9.1",
+    "husky": "^8.0.2",
+    "jest": "29.3.1",
+    "jest-environment-jsdom": "^29.3.1",
+    "lint-staged": "^13.1.0",
+    "postcss": "^8.4.20",
+    "prettier": "2.8.1",
+    "react-test-renderer": "^18.2.0",
+    "tailwindcss": "^3.2.4",
+    "ts-jest": "29.0.3",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.1",
+    "vite-tsconfig-paths": "^4.0.3"
+  }
+}
